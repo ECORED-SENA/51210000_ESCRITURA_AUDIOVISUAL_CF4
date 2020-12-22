@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "tema-1",
+    "title": "1. Herramientas de <em>pitching</em>",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-1.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-1",
+        "title": "Expresión oral",
+        "anchor": "tema-1_1"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-1",
+        "title": "Interpretación y simbología técnica, estética y ética en la escritura de las ideas: aspecto sociológico de las historias",
+        "anchor": "tema-1_2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tema-1",
+        "title": "CardEstrategia de mercado y manejo de públicos",
+        "anchor": "tema-1_3"
+      }
+    ]
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "tema-2",
+    "title": "2. Glosario técnico",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-2.html"
+  }
+]
